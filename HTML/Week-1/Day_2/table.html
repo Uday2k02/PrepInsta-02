@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Table Tag</title>
+        
+        <style>
+            table, th, td{
+                /* border-collapse: collapse; */
+                border: 1px solid black;
+            }
+            th{
+                background-color: violet;  
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table in HTML</h1>
+        <table border="2">
+            <caption>Avengers Marks</caption>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>UID</th>
+                <th>Course name</th>
+                <th>Marks</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="12">Tony Stark</td>
+                <td>7</td>
+                <td>Iron man</td>
+                <td>100</td>
+                <td>tonystark@avengers.com</td>
+            </tr>
+            <tr>
+                <td>Steven</td>
+                <td>18</td>
+                <td>Captain America</td>
+                <td>99</td>
+                <td>captain@avengers.com</td>
+            </tr>
+            <tr>
+                <td>Loki</td>
+                <td>67</td>
+                <td>God of Evil</td>
+                <td rowspan="2">90</td>
+                <td>loki@avengers.com</td>
+            </tr>
+            <tr>
+                <td>Thor Odinson</td>
+                <td>45</td>
+                <td>God of Thunder</td>
+                <!-- <td>90</td> -->
+                <td>thor@avengers.com</td>
+            </tr>
+            <tr>
+                <td>Peter Parker</td>
+                <td>9</td>
+                <td>Spider man</td>
+                <td>100</td>
+                <td>peter@avengers.com</td>
+            </tr></tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total marks</td>
+                <td>540</td>
+            </tr>
+        </tfoot>
+        </table>
+    </body>
+</html>
