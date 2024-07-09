@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .demo{
+            width: 200px;
+            height: 100px;
+            background-color: blueviolet;
+            color: white; */
+            /*transform: translate(100px, 100px);*/  /*X-axis and Y-axis*/
+            /* transform: translateX(100px); */
+            /* transform: translateY(100px); */
+            /* transform: rotate(90deg); */
+            /* transform: scale(1.5); */ /*It increases the size of the box in its current position*/
+            /*transform: skew(35deg); /*Used for tilting the box with an angle*/
+            /*margin-left: 100px;*/
+
+        /* } */
+
+        .demo{
+            width: 200px;
+            height: 100px;
+            background-color: blueviolet;
+            color: white;
+
+            margin-left: 100px;
+            /* transition: transform 2s; */
+            /* transition-property: width;
+            transition-duration: 3s; */
+            /* transition: width 3s, height 4s; */
+            transition: all 3s;
+            /* transition-timing-function: ease-in;  /*means starting time of transition goes slow and then fast*/
+            /* transition-timing-function: ease-out; /*means ending time of transition goes slow and then fast*/
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: linear; /* transition goes in the same timing*/
+        }
+        .demo:hover{
+            transform: rotate(360deg);
+            /* transform: scale(1.2); */
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transform in CSS</h1>
+    <div class="demo">Uday</div>
+</body>
+</html>
