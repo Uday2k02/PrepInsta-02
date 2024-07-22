@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Output methods in JS</h1>
+    <p id="demo"></p>
+    <script>
+        // console.log("Hello, world!");
+        console.log(document);
+        // document.getElementById('demo').innerHTML="<h1>Hello, world!</h1>";
+        // innerHTML is used to display output on the brpwser
+        // document.getElementById('demo').textContent="<h1>Hello, world!</h1>"
+        // document.getElementById('demo').innerText="<h1>Hello, world!</h1>"
+        // alert('Time left is 3 min')
+        // confirm('Do you want to continue?')
+        // prompt('Enter your name') //just as input
+        // if(confirm('Do you want to continue?')){
+        //     document.getElementById('demo').innerHTML="Correct"
+        // }
+        // else{
+        //     document.getElementById('demo').innerHTML="Incorrect"
+        // }
+
+        let name = prompt('Enter your name:')
+        if(name){
+            document.getElementById('demo').innerHTML=`Your name ${name}`
+        }
+        else{
+            document.getElementById('demo').innerHTML='Enter valid name'
+        }
+    </script>
+</body>
+</html>

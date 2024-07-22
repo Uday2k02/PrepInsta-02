@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arrays in JS</h1>
+    <script>
+        //two ways to write arrays
+
+        // let avengers = ['spiderman', 'superman', 'batman', 'ironman', 'loki'];  //An array
+        // console.log(avengers);
+
+        // let avengers = new Array('spiderman', 'superman', 'batman', 'ironman', 'loki');
+        // console.log(avengers);
+        // console.log(avengers.length);  //length method
+
+        //Array methods
+        //push and pop
+        // let avengers = ['spiderman', 'superman', 'batman', 'ironman', 'loki'];
+        // avengers.push('Thor');  //push the element at last
+        // avengers.pop();  //pops the last element
+        // console.log(avengers);
+
+        //shift and unshift
+        // avengers.unshift('Hulk');  //push the element at first
+        // avengers.shift()  //pops the first element
+        // console.log(avengers);
+
+        let avengers = ['spiderman', 'superman', 'batman', 'ironman', 'loki'];
+        // avengers.splice(1, 2, 'Captain')  //similar to slicing, captain is added in place of sliced elements
+        avengers.splice(2,0,'Natasha');  //adds in the place of 2nd index
+        console.log(avengers);
+
+    </script>
+</body>
+</html>

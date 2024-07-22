@@ -1,0 +1,1 @@
+textContent vs innerText

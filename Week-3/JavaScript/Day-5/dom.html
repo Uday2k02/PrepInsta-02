@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM in JS</h1>
+    <div id="demo"></div>
+    <input type="text" id="data1">
+    <button onclick="details()">Click Here</button>
+    <script>
+        // let demo = document.getElementById('demo');
+        // let para = document.createElement('p');  //creates paragraph tag in html 
+        // console.log(para);
+        // para.innerHTML='Hello';   //adds an Hello in paragraph tag
+        // demo.appendChild(para);   //displays the text in windows
+
+        // console.log(demo);
+
+        function details(){
+            let data1 = document.getElementById('data1').value;
+            console.log(data1);
+        }  //This function is used to store the input text elements in the console when I click on button
+    </script>
+</body>
+</html>
